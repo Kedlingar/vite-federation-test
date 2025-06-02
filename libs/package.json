@@ -1,0 +1,12 @@
+{
+    "name": "libs",
+    "version": "1.0.0",
+    "main": "./index.ts",
+    "types": "./index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./index.ts",
+            "require": "./index.ts"
+        }
+    }
+}
