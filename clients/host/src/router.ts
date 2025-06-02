@@ -26,7 +26,9 @@ const routes = [
           {
             path: '/:pathMatch(.*)*',
             component: () => import("./components/remotes/RemoteAppWrapper.vue"),
-            isHide: true,
+            meta: {
+              isHide: true,
+            }
           }
         ]
       }
