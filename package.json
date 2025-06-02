@@ -7,7 +7,8 @@
     "clients/remote-app"
   ],
   "scripts": {
-    "start": "npm run"
+    "dev:host": "npm run dev --workspace=host",
+    "bp:remote": "npm run bp --workspace=remote-app"
   },
   "devDependencies": {
     "@originjs/vite-plugin-federation": "^1.4.1",
